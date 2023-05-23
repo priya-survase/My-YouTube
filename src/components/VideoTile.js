@@ -1,12 +1,12 @@
 import React from "react";
 
 const VideoTile = ({ video }) => {
-  console.log(video);
+  //   console.log(video);
   return (
-    <div className="flex shadow-lg flex-wrap flex-col w-96 ">
+    <div className="flex shadow-lg flex-wrap flex-col w-80 mx-3 my-3 gap-1">
       <img
         alt="thumbnail"
-        className="border rounded-lg w-96 h-44"
+        className="border rounded-lg w-80 h-48 "
         src={video.snippet.thumbnails.medium.url}
       />
       <h2 className="font-bold">{video.snippet.title}</h2>

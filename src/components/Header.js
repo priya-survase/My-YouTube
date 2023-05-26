@@ -87,11 +87,9 @@ const Header = () => {
         )}
       </div>
       <div className="col-span-1">
-        <img
-          className="w-9 h-9"
-          alt="user icon"
-          src="https://th.bing.com/th?id=OIP.fqSvfYQB0rQ-6EG_oqvonQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
-        />
+        <div className="w-9 h-9 bg-green-700 text-white rounded-full flex justify-center items-center font-semibold text-lg">
+          P
+        </div>
       </div>
     </div>
   );

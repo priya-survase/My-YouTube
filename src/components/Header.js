@@ -4,6 +4,7 @@ import { toggleMenu } from "../utils/appSlice";
 import { YOUTUBE_SEARCH_API } from "../utils/config";
 import store from "../utils/store";
 import { cacheResults } from "../utils/searchSlice";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -52,13 +53,13 @@ const Header = () => {
           src="https://cdn2.iconfinder.com/data/icons/most-useful-icons-4/50/HAMBURGER_MENU-512.png"
           className="w-9 h-9 cursor-pointer"
         />
-        {/* <Link to="/"> */}
-        <img
-          alt="youtube logo"
-          src="https://i.redd.it/q5rvcww0i5jz.jpg"
-          className="w-15 h-12 mx-2"
-        />
-        {/* </Link> */}
+        <a href="/">
+          <img
+            alt="youtube logo"
+            src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-9.png"
+            className="w-26 h-6 mx-2 my-1"
+          />
+        </a>
       </div>
       <div className="col-span-10 px-10 content-center">
         <div>

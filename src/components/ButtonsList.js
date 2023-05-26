@@ -15,6 +15,10 @@ const ButtonsList = () => {
     "Cricket",
     "Soccer",
     "Cooking",
+    "Sitcoms",
+    "Coding",
+    "Interview",
+    "Project",
   ];
   return (
     <div className="flex">
